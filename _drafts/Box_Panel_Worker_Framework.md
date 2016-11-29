@@ -8,7 +8,7 @@ For each BPW service, there is an Agent. The agent communicates regularly with t
 
 This relationship between the Box Panel Worker service, the RabbitMQ, and the Box Panel messenger is illustrated in the figure below.
 
-![figure]({{site.baseurl}}/img/Galtenberg-BPW-Figure.png)
+![BPW figure](https://github.com/IBM-Blue-Box-Help/help-documentation/blob/gh-pages/img/Box-Panel-Worker-Overview.png)
 
 
 **Example: Reboot**
