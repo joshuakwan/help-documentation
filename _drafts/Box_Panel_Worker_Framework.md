@@ -41,6 +41,6 @@ The deployment of Box Panel Workers is built into Ursula, which is the tool we u
 
 **How to Use Box Panel Worker**
 
-Box Panel Worker capabilities are full available through the Box Panel use interface. The figure below shows an example of how to initiate a Power Cycle of a host through the Box Panel UI.
+Box Panel Worker capabilities are full available through the Box Panel user interface. The figure below shows an example of how to initiate a Power Cycle of a host through the Box Panel UI.
 
 ![Box Panel UI figure](https://github.com/IBM-Blue-Box-Help/help-documentation/blob/gh-pages/img/Box-panel-worker-ui.png)
