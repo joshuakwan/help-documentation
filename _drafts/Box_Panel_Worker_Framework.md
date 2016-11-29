@@ -23,6 +23,8 @@ Here’s a general order of steps in the process:
 
 3. The BPW Agent, which has been monitoring the message queue (RabbitMQ), picks up the reboot request and passes it to the BPW Service for execution.
 
+**More Specifics**
+
 Here's a more specific picture of the Box Panel Worker framework as it is deployed within IBM Blue Box. Notice that several Remote Site Controllers, deployed in Local sites, communicate with the Central Site Controller as they fetch the messages from the RabbitMQ message queue. Currently, as shown, we are running workers in the Softlayer WDC data center and in the Blue Box Remote lab in SEA-04, Rainier.
 
 ![Specific figure](https://github.com/IBM-Blue-Box-Help/help-documentation/blob/gh-pages/img/Galtenberg-BPW-Figure.png)
