@@ -38,3 +38,9 @@ with a single message. If AWS Lambda is Function as a Service, Box Panel Worker 
 At this early stage of development, you can already use the power/IPMI worker to power-cycle machines and check power status. Also we have created over a dozen Softlayer workers for managing end-to-end workflow. 
 
 The deployment of Box Panel Workers is built into Ursula, which is the tool we use to deploy every IBM Bluemix Private Cloud, Dedicated and Local. For general information about Ursula, please [read more here.](http://ibm-blue-box-help.github.io/help-documentation/gettingstarted/commontech/general_product_overview/) You can view the [Ursula playbooks](https://github.com/blueboxgroup/ursula) on **GitHub**. They are open source documents.
+
+**How to Use Box Panel Worker**
+
+Box Panel Worker capabilities are full available through the Box Panel use interface. The figure below shows an example of how to initiate a Power Cycle of a host through the Box Panel UI.
+
+![Box Panel UI figure]()
