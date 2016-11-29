@@ -1,6 +1,6 @@
 ## Overview of the Box Panel Worker/ Agent Framework
 
-The Box Panel Worker framework helps automate many of the tasks that an Operations team member might need to perform when managing your cloud. The framework lets the operator use Box Panel as an end-to-end deployment, upgrade, management, and expansion tool, while it also functions as the system of record for each cloud under management.
+The Box Panel Worker framework helps automate many of the tasks that an Operations team member might need to perform when managing an IBM Bluemix Private cloud. The framework lets the operator use Box Panel as an end-to-end deployment, upgrade, management, and expansion tool, while it also functions as the system of record for each cloud under management.
 
 As part of the Box Panel Application Suite, the Messenger Application was created to collect from Box Panel the information needed for each type of automated task, and then to send a message containing that information to the message bus (RabbitMQ) on the Site Controller.
 
