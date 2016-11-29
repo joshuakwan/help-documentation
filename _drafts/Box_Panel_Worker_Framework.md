@@ -23,6 +23,16 @@ Here’s a general order of steps in the process:
 
 3. The BPW Agent, which has been monitoring the message queue (RabbitMQ), picks up the reboot request and passes it to the BPW Service for execution.
 
-Here's a more specific picture of the Box Panel Worker framework as it is deployed within an IBM Blue Box data center. Notice that several Remote Site Controllers, deployed in Local sites, communicates with the Central Site Controller as they fetch the messages from the RabbitMQ message queue. 
+Here's a more specific picture of the Box Panel Worker framework as it is deployed within IBM Blue Box. Notice that several Remote Site Controllers, deployed in Local sites, communicate with the Central Site Controller as they fetch the messages from the RabbitMQ message queue. Currently, as shown, we are running workers in the Softlayer WDC data center and in the Blue Box Remote lab in SEA-04, Rainier.
 
 ![Specific figure](https://github.com/IBM-Blue-Box-Help/help-documentation/blob/gh-pages/img/Galtenberg-BPW-Figure.png)
+
+The effect of running these workers is that we can use them to drive workloads for the customers at any place where there is a Site Controller available. For example, we can use workers for specialized workloads in an IBM Bluemix Private Cloud (formerly Blue Box), managed in our IBM Cloud data centers, and also for IBM Bluemix Private Cloud Local, running at any customer data center.
+
+One of our top engineers says this:
+ "Just provide a snippet of Python code, we’ll deploy it wherever you like, then you can execute it
+with a single message. If AWS Lambda is Function as a Service, Box Panel Worker is Local Function as a Service."
+
+At this early stage of development, you can already use the power/IPMI worker to power-cycle machines and check power status. Also we have created over a dozen Softlayer workers for managing end-to-end workflow. 
+
+The deployment of Box Panel Workers is built into Ursula, which is the tool we use to deploy every IBM Bluemix Private Cloud, Dedicated and Local. For general information about Ursula, please [read more here.](http://ibm-blue-box-help.github.io/help-documentation/gettingstarted/commontech/general_product_overview/) You can view the [Ursula playbooks](https://github.com/blueboxgroup/ursula) on **GitHub**. They are open source documents.
