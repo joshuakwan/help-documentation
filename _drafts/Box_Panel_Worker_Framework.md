@@ -4,7 +4,7 @@ The Box Panel Worker framework helps automate many of the tasks that an Operatio
 
 As part of the Box Panel Application Suite, the Messenger Application was created to collect from Box Panel the information needed for each type of automated task, and then to send a message containing that information to the message bus (RabbitMQ) on the Site Controller.
 
-For each BPW service, there is an Agent. The agent communicates regularly with the RabbitMQ message bus, essentially “looking” for a job for its service to carry out.
+For each BPW service, there is an Agent. The agent communicates regularly with the RabbitMQ message bus, essentially “looking” for a job its service can carry out.
 
 This relationship between the Box Panel Worker service, the RabbitMQ, and the Box Panel messenger is illustrated in the figure below.
 
